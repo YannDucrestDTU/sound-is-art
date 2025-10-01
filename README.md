@@ -43,11 +43,8 @@ ipykernel
 ## Usage
 
 1. Place your **speech file** as `data/voice.wav`.
-2. Run the notebook:
 
-```bash
-jupyter notebook sound_is_art.ipynb
-```
+2. Run the notebook: `sound_is_art.ipynb`.
 
 3. Plots will be generated in the `plots/` folder:
 
