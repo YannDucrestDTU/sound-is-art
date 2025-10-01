@@ -1,20 +1,16 @@
-# 🎶 Assignment #1 – *Sound is Art!*  
+# Assignment #1 – *Sound is Art!*  
 
 **Yann Ducrest – s251889@dtu.dk**  
 *Course 22051: Signals and Linear Systems in Discrete Time*  
 
----
+## Project Overview  
 
-## 🌟 Project Overview  
-
-This project turns a short **speech recording** into **digital sound art** 🎨 using concepts from **Digital Signal Processing (DSP)**.  
+This project turns a short **speech recording** into **digital sound art** using concepts from **Digital Signal Processing (DSP)**.  
 It blends **time-domain** and **frequency-domain** analyses to generate colorful, symmetric, and abstract visualizations.  
 
-👉 You speak into the mic, and DSP transforms it into art!  
+You speak into the mic, and DSP transforms it into art!  
 
----
-
-## ⚙️ Setup Instructions  
+## Setup Instructions  
 
 ### 1. Create and Activate Virtual Environment  
 
@@ -44,9 +40,7 @@ matplotlib
 ipykernel
 ```
 
----
-
-## ▶️ Usage
+## Usage
 
 1. Place your **speech file** as `data/voice.wav`.
 2. Run the notebook:
@@ -62,11 +56,9 @@ jupyter notebook sound_is_art.ipynb
    * `3_symmetric_pattern.png` → artistic symmetric pattern
    * `4_spectrum.png` → FFT spectrum
    * `5_spectrum_and_bands.png` → band aggregation
-   * `6_artistic_combo.png` → **final artwork** ✨
+   * `6_artistic_combo.png` → **final artwork** 
 
----
-
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 SOUND-IS-ART/
@@ -85,19 +77,15 @@ SOUND-IS-ART/
 └── README.md
 ```
 
----
-
-## 🎨 Example Output
+## Example Output
 
 The final visualization combines:
 
-* **Envelope-based pattern** → rhythm & phrasing 🗣️
-* **Spectrum bands** → frequency energy profile 🎵
+* **Envelope-based pattern** → rhythm & phrasing 
+* **Spectrum bands** → frequency energy profile 
 
-👉 Result: a colorful **sound-as-art image** directly derived from your own speech!
+Result: a colorful **sound-as-art image** directly derived from your own speech!
 
 ![Artistic Visualization](plots/6_artistic_combo.png)
 
----
-
-✨ Enjoy turning your **voice into art** using **DSP concepts**!
+Enjoy turning your **voice into art** using **DSP concepts**!
