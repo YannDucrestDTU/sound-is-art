@@ -59,18 +59,20 @@ ipykernel
 
 ```
 SOUND-IS-ART/
-├── .venv/                 # Virtual environment
 ├── data/
-│   └── voice.wav          # Input speech recording
-├── plots/                 # Output visualizations
+│   └── voice.wav               # Input speech recording
+├── plots/                      # Output visualizations
 │   ├── 1_waveform.png
+│   ├── 1_waveform_zoom.png
 │   ├── 2_envelopes_full.png
+│   ├── 2_envelopes_zoom.png
+│   ├── 3_envelope_sampling.png
 │   ├── 3_symmetric_pattern.png
 │   ├── 4_spectrum.png
 │   ├── 5_spectrum_and_bands.png
 │   └── 6_artistic_combo.png
-├── sound_is_art.ipynb     # Main notebook
-├── requirements.txt
+├── sound_is_art.ipynb          # Main Jupyter Notebook
+├── requirements.txt            # Python dependencies
 └── README.md
 ```
 
